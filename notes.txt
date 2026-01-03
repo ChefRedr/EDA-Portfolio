@@ -1,0 +1,6 @@
+=== Filling in missing data ===
+
+--Age--
+Mean vs Median: Median is almost always a better choice here because a few outliers can really screw over the mean making person seem way younger or older than inteded. Median ignores outliers, so it's a better choice. This is the same case with multimodel data (a lot of babies + a lot of old people), the mean in this case will classify the average person in a group that doesn't exist.
+
+Group Dependency - Sometimes, another group affects the average or median age. For example, the age of someone in a 1st class cabin might be higher because wealth takes time to accumulate and older people are more likely to be in 1st class. In that case, sometimes it's better to fill in missing age by group rather than as a whole dataset.
